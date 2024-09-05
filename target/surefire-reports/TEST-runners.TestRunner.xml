@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.TestRunner" time="7.979" tests="8" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Administrator\eclipse-workspace\MovieRentalwithCucumber\target\test-classes;C:\Users\Administrator\eclipse-workspace\MovieRentalwithCucumber\target\classes;C:\Users\Administrator\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-java\7.11.0\cucumber-java-7.11.0.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-core\7.11.0\cucumber-core-7.11.0.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-gherkin\7.11.0\cucumber-gherkin-7.11.0.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.0\cucumber-gherkin-messages-7.11.0.jar;C:\Users\Administrator\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\Administrator\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-expressions\16.1.1\cucumber-expressions-16.1.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\datatable\7.11.0\datatable-7.11.0.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-plugin\7.11.0\cucumber-plugin-7.11.0.jar;C:\Users\Administrator\.m2\repository\io\cucumber\docstring\7.11.0\docstring-7.11.0.jar;C:\Users\Administrator\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\Administrator\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\Administrator\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-testng\7.11.0\cucumber-testng-7.11.0.jar;C:\Users\Administrator\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\Administrator\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\Administrator\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Administrator\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Administrator\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Administrator\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Administrator\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Administrator\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\Administrator\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\Administrator\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\Administrator\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Administrator\.m2\repository\org\testng\testng\7.7.0\testng-7.7.0.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Administrator\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Administrator\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Administrator\.m2\repository\org\json\json\20210307\json-20210307.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.3\jackson-databind-2.15.3.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.3\jackson-core-2.15.3.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.3\jackson-annotations-2.15.3.jar;C:\Users\Administrator\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
+    <property name="sun.java.command" value="C:\Users\Administrator\AppData\Local\Temp\surefire2024567384820338995\surefirebooter-20240905111036513_3.jar C:\Users\Administrator\AppData\Local\Temp\surefire2024567384820338995 2024-09-05T11-10-34_029-jvmRun1 surefire-20240905111036513_1tmp surefire_0-20240905111036513_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="TestRunner"/>
+    <property name="surefire.test.class.path" value="C:\Users\Administrator\eclipse-workspace\MovieRentalwithCucumber\target\test-classes;C:\Users\Administrator\eclipse-workspace\MovieRentalwithCucumber\target\classes;C:\Users\Administrator\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-java\7.11.0\cucumber-java-7.11.0.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-core\7.11.0\cucumber-core-7.11.0.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-gherkin\7.11.0\cucumber-gherkin-7.11.0.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.0\cucumber-gherkin-messages-7.11.0.jar;C:\Users\Administrator\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\Administrator\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-expressions\16.1.1\cucumber-expressions-16.1.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\datatable\7.11.0\datatable-7.11.0.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-plugin\7.11.0\cucumber-plugin-7.11.0.jar;C:\Users\Administrator\.m2\repository\io\cucumber\docstring\7.11.0\docstring-7.11.0.jar;C:\Users\Administrator\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\Administrator\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\Administrator\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\Administrator\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Administrator\.m2\repository\io\cucumber\cucumber-testng\7.11.0\cucumber-testng-7.11.0.jar;C:\Users\Administrator\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\Administrator\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\Administrator\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Administrator\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Administrator\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Administrator\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Administrator\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Administrator\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\Administrator\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\Administrator\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\Administrator\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Administrator\.m2\repository\org\testng\testng\7.7.0\testng-7.7.0.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Administrator\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Administrator\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Administrator\.m2\repository\org\json\json\20210307\json-20210307.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.3\jackson-databind-2.15.3.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.3\jackson-core-2.15.3.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.3\jackson-annotations-2.15.3.jar;C:\Users\Administrator\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-22"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Administrator\eclipse-workspace\MovieRentalwithCucumber"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Administrator\AppData\Local\Temp\surefire2024567384820338995\surefirebooter-20240905111036513_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="22.0.2+9-70"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Administrator\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="22.0.2"/>
+    <property name="user.dir" value="C:\Users\Administrator\eclipse-workspace\MovieRentalwithCucumber"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-22\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files (x86)\Java\jre-1.8\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk-22\bin;C:\Users\Administrator\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files\Java\jdk-22\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="22.0.2+9-70"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Register a new user&quot;, &quot;API Testing with Rest Assured&quot;](1)" classname="runners.TestRunner" time="5.385">
+    <system-out><![CDATA[
+Scenario: Register a new user                                                                          &amp#27;[90m# src/test/resources/features/MovieRental.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user registration endpoint is available&amp#27;[0m                                                    &amp#27;[90m# stepdefinitions.ApiSteps.theUserRegistrationEndpointIsAvailable()&amp#27;[0m
+Request method:	POST
+Request URI:	http://localhost:2000/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "JohnDoe",
+    "password": "password123",
+    "email": "john@example.com"
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI register a user with username &amp#27;[0m&amp#27;[32m&amp#27;[1m"JohnDoe"&amp#27;[0m&amp#27;[32m, password &amp#27;[0m&amp#27;[32m&amp#27;[1m"password123"&amp#27;[0m&amp#27;[32m, and email &amp#27;[0m&amp#27;[32m&amp#27;[1m"john@example.com"&amp#27;[0m &amp#27;[90m# stepdefinitions.ApiSteps.iRegisterAUser(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status code should be &amp#27;[0m&amp#27;[32m&amp#27;[1m201&amp#27;[0m                                                          &amp#27;[90m# stepdefinitions.ApiSteps.theResponseStatusCodeShouldBe(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response body should contain username &amp#27;[0m&amp#27;[32m&amp#27;[1m"JohnDoe"&amp#27;[0m&amp#27;[32m and email &amp#27;[0m&amp#27;[32m&amp#27;[1m"john@example.com"&amp#27;[0m                 &amp#27;[90m# stepdefinitions.ApiSteps.theResponseBodyShouldContainUsernameAndEmail(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login a user&quot;, &quot;API Testing with Rest Assured&quot;](2)" classname="runners.TestRunner" time="0.175">
+    <system-out><![CDATA[
+Scenario: Login a user                                            &amp#27;[90m# src/test/resources/features/MovieRental.feature:9&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user login endpoint is available&amp#27;[0m                      &amp#27;[90m# stepdefinitions.ApiSteps.theUserLoginEndpointIsAvailable()&amp#27;[0m
+Request method:	POST
+Request URI:	http://localhost:2000/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "Ankit",
+    "password": "Ankit123",
+    "email": null
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI login with username &amp#27;[0m&amp#27;[32m&amp#27;[1m"Ankit"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Ankit123"&amp#27;[0m      &amp#27;[90m# stepdefinitions.ApiSteps.iLoginWithUsernameAndPassword(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status code should be &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                     &amp#27;[90m# stepdefinitions.ApiSteps.theResponseStatusCodeShouldBe(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response body should contain message &amp#27;[0m&amp#27;[32m&amp#27;[1m"Login successful"&amp#27;[0m &amp#27;[90m# stepdefinitions.ApiSteps.theResponseBodyShouldContainMessage(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Update user details&quot;, &quot;API Testing with Rest Assured&quot;](3)" classname="runners.TestRunner" time="0.127">
+    <system-out><![CDATA[
+Scenario: Update user details                                                                  &amp#27;[90m# src/test/resources/features/MovieRental.feature:15&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user update endpoint is available&amp#27;[0m                                                  &amp#27;[90m# stepdefinitions.ApiSteps.theUserUpdateEndpointIsAvailable()&amp#27;[0m
+Request method:	PUT
+Request URI:	http://localhost:2000/users/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "AnkitChauhan",
+    "password": null,
+    "email": "chauhan@example.com"
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI update user with id &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m with username &amp#27;[0m&amp#27;[32m&amp#27;[1m"AnkitChauhan"&amp#27;[0m&amp#27;[32m and email &amp#27;[0m&amp#27;[32m&amp#27;[1m"chauhan@example.com"&amp#27;[0m    &amp#27;[90m# stepdefinitions.ApiSteps.iUpdateUserWithIdWithUsernameAndEmail(int,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status code should be &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                                                  &amp#27;[90m# stepdefinitions.ApiSteps.theResponseStatusCodeShouldBe(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response body should contain username &amp#27;[0m&amp#27;[32m&amp#27;[1m"AnkitChauhan"&amp#27;[0m&amp#27;[32m and email &amp#27;[0m&amp#27;[32m&amp#27;[1m"chauhan@example.com"&amp#27;[0m &amp#27;[90m# stepdefinitions.ApiSteps.theResponseBodyShouldContainUsernameAndEmail(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Delete a user&quot;, &quot;API Testing with Rest Assured&quot;](4)" classname="runners.TestRunner" time="0.079">
+    <system-out><![CDATA[
+Scenario: Delete a user                       &amp#27;[90m# src/test/resources/features/MovieRental.feature:21&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user delete endpoint is available&amp#27;[0m &amp#27;[90m# stepdefinitions.ApiSteps.theUserDeleteEndpointIsAvailable()&amp#27;[0m
+Request method:	DELETE
+Request URI:	http://localhost:2000/users/3
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI delete user with id &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m                &amp#27;[90m# stepdefinitions.ApiSteps.iDeleteUserWithId(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status code should be &amp#27;[0m&amp#27;[32m&amp#27;[1m204&amp#27;[0m &amp#27;[90m# stepdefinitions.ApiSteps.theResponseStatusCodeShouldBe(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Post a movie&quot;, &quot;API Testing with Rest Assured&quot;](5)" classname="runners.TestRunner" time="0.073">
+    <system-out><![CDATA[
+Scenario: Post a movie                                                                                       &amp#27;[90m# src/test/resources/features/MovieRental.feature:26&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe movie post endpoint is available&amp#27;[0m                                                                 &amp#27;[90m# stepdefinitions.ApiSteps.theMoviePostEndpointIsAvailable()&amp#27;[0m
+Request method:	POST
+Request URI:	http://localhost:2000/movies
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Inception",
+    "director": "Nolan",
+    "genre": "Sci-Fi",
+    "releaseDate": "2010-07-16"
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI post a movie with title &amp#27;[0m&amp#27;[32m&amp#27;[1m"Inception"&amp#27;[0m&amp#27;[32m, director &amp#27;[0m&amp#27;[32m&amp#27;[1m"Nolan"&amp#27;[0m&amp#27;[32m, genre &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sci-Fi"&amp#27;[0m&amp#27;[32m, and releaseDate &amp#27;[0m&amp#27;[32m&amp#27;[1m"2010-07-16"&amp#27;[0m &amp#27;[90m# stepdefinitions.ApiSteps.iPostAMovieWithDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status code should be &amp#27;[0m&amp#27;[32m&amp#27;[1m201&amp#27;[0m                                                                &amp#27;[90m# stepdefinitions.ApiSteps.theResponseStatusCodeShouldBe(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response body should contain title &amp#27;[0m&amp#27;[32m&amp#27;[1m"Inception"&amp#27;[0m&amp#27;[32m and director &amp#27;[0m&amp#27;[32m&amp#27;[1m"Nolan"&amp#27;[0m                                &amp#27;[90m# stepdefinitions.ApiSteps.theResponseBodyShouldContainTitleAndDirector(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Get a movie by ID&quot;, &quot;API Testing with Rest Assured&quot;](6)" classname="runners.TestRunner" time="0.076">
+    <system-out><![CDATA[
+Scenario: Get a movie by ID                            &amp#27;[90m# src/test/resources/features/MovieRental.feature:32&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe movie get by ID endpoint is available&amp#27;[0m      &amp#27;[90m# stepdefinitions.ApiSteps.theMovieGetByIdEndpointIsAvailable()&amp#27;[0m
+Request method:	GET
+Request URI:	http://localhost:2000/movies/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI get the movie with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m                       &amp#27;[90m# stepdefinitions.ApiSteps.iGetTheMovieWithId(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status code should be &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m          &amp#27;[90m# stepdefinitions.ApiSteps.theResponseStatusCodeShouldBe(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response body should contain title &amp#27;[0m&amp#27;[32m&amp#27;[1m"Ghazini"&amp#27;[0m &amp#27;[90m# stepdefinitions.ApiSteps.theResponseBodyShouldContainTitle(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Post a rental&quot;, &quot;API Testing with Rest Assured&quot;](7)" classname="runners.TestRunner" time="0.093">
+    <system-out><![CDATA[
+Scenario: Post a rental                                                      &amp#27;[90m# src/test/resources/features/MovieRental.feature:38&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe rental post endpoint is available&amp#27;[0m                                &amp#27;[90m# stepdefinitions.ApiSteps.theRentalPostEndpointIsAvailable()&amp#27;[0m
+Request method:	POST
+Request URI:	http://localhost:2000/rentals
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userId": 1,
+    "movieId": 1,
+    "rentalDate": "2024-01-01"
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI post a rental with userId &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, movieId &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, and rentalDate &amp#27;[0m&amp#27;[32m&amp#27;[1m"2024-01-01"&amp#27;[0m &amp#27;[90m# stepdefinitions.ApiSteps.iPostARentalWithDetails(int,int,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status code should be &amp#27;[0m&amp#27;[32m&amp#27;[1m201&amp#27;[0m                                &amp#27;[90m# stepdefinitions.ApiSteps.theResponseStatusCodeShouldBe(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response body should contain userId &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m and movieId &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m                &amp#27;[90m# stepdefinitions.ApiSteps.theResponseBodyShouldContainUserIdAndMovieId(int,int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Get all rentals&quot;, &quot;API Testing with Rest Assured&quot;](8)" classname="runners.TestRunner" time="0.049">
+    <system-out><![CDATA[
+Scenario: Get all rentals                         &amp#27;[90m# src/test/resources/features/MovieRental.feature:44&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe rentals get all endpoint is available&amp#27;[0m &amp#27;[90m# stepdefinitions.ApiSteps.theRentalsGetAllEndpointIsAvailable()&amp#27;[0m
+Request method:	GET
+Request URI:	http://localhost:2000/rentals
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI get all rentals&amp#27;[0m                          &amp#27;[90m# stepdefinitions.ApiSteps.iGetAllRentals()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status code should be &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m     &amp#27;[90m# stepdefinitions.ApiSteps.theResponseStatusCodeShouldBe(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response body should contain rentals&amp#27;[0m    &amp#27;[90m# stepdefinitions.ApiSteps.theResponseBodyShouldContainRentals()&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
